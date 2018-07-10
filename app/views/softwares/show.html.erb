@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @software.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @software.type %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @software.category %>
+</p>
+
+<p>
+  <strong>Industry:</strong>
+  <%= @software.industry %>
+</p>
+
+<%= link_to 'Edit', edit_software_path(@software) %> |
+<%= link_to 'Back', softwares_path %>
